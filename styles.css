@@ -1,0 +1,54 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+img, picture, svg ,video {
+  display: block;
+  max-width: 100%;
+}
+
+input, textarea, button, select {
+  font: inherit;
+}
+
+:root {
+  --border-radius: 10px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.root {
+  font-size: 1.6rem;
+}
+
+button, input , fieldset ,select{
+  border-radius: var(--border-radius);
+  padding: .5rem 1rem;
+}
+
+select, button:hover {
+  cursor: pointer;
+}
+#ul {
+  font-size: 1.3rem;
+}
+
+#ul:hover {
+  cursor: pointer;
+}
+#li {
+  font-size: 1rem;
+}
+
+.hidden {
+  display: none;
+}

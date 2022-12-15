@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Hire me!</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <fieldset>
+          <legend>File Structure</legend>
+          <form class="inputForm">
+            <input type="text" placeholder="Name" id="name" value="" required />
+            <select class="locationSelect" required>
+              <option value="root">Root</option>
+            </select>
+            <select class="selectType" required>
+              <option value="">-- Choose --</option>
+              <option value="folder">Folder</option>
+              <option value="file">File</option>
+            </select>
+            <button type="submit">Upload</button>
+          </form>
+        </fieldset>
+      </section>
+      <section class="nodeTree">
+        <ul class="root" id="ul">
+          Root
+        </ul>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

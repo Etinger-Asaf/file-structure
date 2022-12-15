@@ -1,4 +1,4 @@
-Representation of file structure in vanile JS.
+Representation of file structure in Vanilla JS.
 
 Abilities -
 

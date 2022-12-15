@@ -46,7 +46,6 @@ form.addEventListener("submit", (e) => {
     if (child.className === nodeVal)
       return alert("Damn! there is one like this in here.");
   }
-  // type === "folder" ? parentEl.appendChild(newNode) : parentEl.insertBefore(newNode, null);
   parentEl.appendChild(newNode);
 
   // adding to select location menu
@@ -74,7 +73,7 @@ nodeTree.addEventListener("click", (e) => {
   }
 });
 
-nodeTree.addEventListener("dblclick", (e) => {
+nodeTree.addEventListener("contextmenu", (e) => {
   e.preventDefault();
 
   let nodeToDelete = document.getElementById(e.target.id);
